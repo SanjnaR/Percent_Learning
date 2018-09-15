@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "percent-learning-1537040853724",
+  "private_key_id": "3915767307fb6f536d06edb9eca475f96a8f8368",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXeyYMXuJWUMOC\niFucU/7jt+8cYvdNFtF/P3QDX6OCdO0v/9sjWShejkACKNtDKxbDBdz77D7PibDA\nMi6FlTZfEcUf5vysZietIvMRb2IC6oD5QAO7wuyNQ6+xWtywUHWEIN+qEw1aAGBS\nSlo1q5fRj3NoO3tp+ouRm5rZD65KOIecidVR3MV5sz14aBIe1f9CPJyV/BK7ykOc\n7386ooEUhUJu+yLA+MrK+frWan+zMRwFfVVvHWo67+btUDxAcHXClRWDWp+HcUa3\nN0mja5bnFw2AaXgR/KCe10GAb2/VG76l9CYQJLBD33g0DXG/fodtuaEyLJPFNrVD\ns2BOHm4ZAgMBAAECggEACksMsJIA/L8DrfrAiNyfSQ9+ULY72jHm/efMpQ8KYAq8\ndELFO/9qshQl7s+iaIvEwe9Dzx2EPht71m+CgEK9nVOqiqqqODe/0fC6RhDEvvB6\n35T1O/y4kLfM+Db1oIhzF82ZDSg6w8cbRHQ3cYatrAh8ndRO5EppUfVaHg5F+FaI\nwtVyBqhlUFZBMaLyTRvVBmjfUa0mW6/cGXkitLbxl6xaImKpSv3za8xH043k1xEL\nPZeDK5abZ+P9gv3EcpRlfjM5Gy5i2lQfSpU8DE5FwxMrosijp5mBcqPD6AssqWln\ng/OIBwSpWScc5BH68ouU9xwkQgcT6vsnfighcslnoQKBgQDHPd6343RpHI48HJBj\n03lNzR0JZnfwSuAMZg3mL3l+u0tF5VhEpuWGjbW5iUO1lndfhnr3PJ8l0Aod1/el\nT3EjVHpD7fMYj2FQbtDXxucvEB+AbAKcnx+94bC4EMRHkKsBPhMSjM3742t+TW+T\nHvySDQaFLUFSnYe2QwBgA963CQKBgQDCojtBS/MBKcMtMrtbrwVdNkwDTzi19bWr\n2VLOcULjljVE8S4wdM2Vgqe2mM4Q1jYL9n5zdhhm94O78ukDOaszhpiF7/llcTc7\nhwPy/Lvu7SzFZ4LI3e+UkFPvEXkTOPQoRDEn1N8y21xNwzZvzoJcPPOWdHOSUm9J\n46WzkLEykQKBgE2w127XF6aBBwlzje4PISbwS1lGBpDBcZoEFXljm7mKKPDpXEDw\n32FXUrw1RRzCvmuWUc6kad5hwAAhHaTtVE2VfFOOrpMuHaEyhOcO3UjhvZbjByWx\nerwdDD7J8u+A/t1uKhu6ofuNk3XdlhtFIvGEeL1nhyhC2w98EuJdv/OZAoGAf1KR\nYM3GUeR4AYFGf1unLqruXtvcRWxPQ/QO7224TBlfD5KWnKxMMJogDJs5clovUPQX\nFIEUxYb1bmYheDKphDNwY23wwCOn9hEEzFf4uPv+ZcSpEa3dpFomDiZoBeMkFZNG\ndMAUorhNUbF6UvnM3Xoh/zJ+yCGVG8kIBMeKo4ECgYA73Ckbg/GNJCdT9Li3C0R4\n9WVPIvYv11yMZgX1KXk4ubuKz0w0B+3bfP5YqLaqm7h/0U7ro1mxKaiUB/95QDna\n8LyeCEnp6zgVLmhPE5/KSrKBuKpjZrGuq3kgMtX9VWO2vRGxLKFBGCy7rSl7qf6z\nDJ0fK8Etzrimx6k0VytYyQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "starting-account-qpx4qpptr7df@percent-learning-1537040853724.iam.gserviceaccount.com",
+  "client_id": "104960720176767129899",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/starting-account-qpx4qpptr7df%40percent-learning-1537040853724.iam.gserviceaccount.com"
+}
