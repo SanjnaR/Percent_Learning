@@ -18,15 +18,13 @@ def load_words():
     # line: string
     line = inFile.readline()
     full_text = " "
-    # wordlist: list of strings
+    # full_text: text of all strings
     for line in inFile:
         full_text += line.lower()
 
-    print(str(len(full_text), 'words loaded')
-    
-    return wordlist
-
-
+    print(len(full_text), "words loaded")
+    print('yo yo yoey')
+    return full_text
 
 
 
@@ -63,5 +61,5 @@ def entities_text(text):
               entity.metadata.get('wikipedia_url', '-')))
 
 
-load_words()
+entities_text(load_words())
 
