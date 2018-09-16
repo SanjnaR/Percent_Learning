@@ -7,7 +7,7 @@ WORDLIST_FILENAME = "civil_war.txt"
 
 def load_words():
     """
-    Returns a list of valid words. Words are strings of lowercase letters.
+    Returns a string words in specified textfile.
     
     Depending on the size of the word list, this function may
     take a while to finish.
@@ -29,24 +29,21 @@ def load_words():
 
 
 def entities_text(text):
-    """Detects entities in the text."""
+    """ Detects entities """
+    """ Param: text string of text """
+    """ Returns salient words and entity types """
+
     client = language.LanguageServiceClient()
 
     if isinstance(text, six.binary_type):
         text = text.decode('utf-8')
 
-    # Instantiates a plain text document.
     document = types.Document(
         content=text,
         type=enums.Document.Type.PLAIN_TEXT)
 
-    # Detects entities in the document. You can also analyze HTML with:
-    #   document.type == enums.Document.Type.HTML
     entities = client.analyze_entities(document).entities
 
-    # entity types from enums.Entity.Type
-    #these are some example entities, if it matches to one of these concepts, can add more
-    #fixed list of entity types? check
     entity_type = ('UNKNOWN', 'PERSON', 'LOCATION', 'ORGANIZATION',
                    'EVENT', 'WORK_OF_ART', 'CONSUMER_GOOD', 'OTHER')
     ent_list = []
@@ -55,7 +52,6 @@ def entities_text(text):
         ent_list.append((entity.name, entity_type[entity.type]))
 
     return ent_list
-
 
 
 print(entities_text(load_words()))

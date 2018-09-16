@@ -3,11 +3,14 @@ from google.cloud.language import enums
 from google.cloud.language import types
 import six
 
+"""
+!!! Now used for testing !!!
+"""
 WORDLIST_FILENAME = "civil_war.txt"
 
 def load_words():
     """
-    Returns a list of valid words. Words are strings of lowercase letters.
+    Returns a string of valid words. Words are strings of lowercase letters.
     
     Depending on the size of the word list, this function may
     take a while to finish.
@@ -30,6 +33,7 @@ def load_words():
 
 def entities_text(text):
     """Detects entities in the text."""
+    
     client = language.LanguageServiceClient()
 
     if isinstance(text, six.binary_type):
@@ -59,6 +63,9 @@ def entities_text(text):
         print(u'{:<16}: {}'.format('salience', entity.salience))
         print(u'{:<16}: {}'.format('wikipedia_url',
               entity.metadata.get('wikipedia_url', '-')))
+
+
+
 
 
 entities_text(load_words())
