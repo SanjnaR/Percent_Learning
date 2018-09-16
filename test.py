@@ -22,4 +22,4 @@ print('Text: {}'.format(text))
 #print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
 
 #text = u'Hello, world!'
-#difference between u vs not u
+#difference between u vs not u :0
