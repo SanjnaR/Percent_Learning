@@ -62,6 +62,7 @@ def q_gen(q_data):
     q_template = {'UNKNOWN': None, 'PERSON':"Who was ", 'LOCATION':"Where is ", 'ORGANIZATION': "What was the ",
                     'EVENT': "What was the ", 'WORK_OF_ART': "What was the ", 'CONSUMER_GOOD': "What was the ", 'OTHER': "What's the importance of "}
     # Person, detect if common or proper to see common + "the "
+    # Goals for 
 
     for t in q_data: 
         q.append(q_template[t[1]] + t[0] + "?")
